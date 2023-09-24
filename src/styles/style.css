@@ -1,0 +1,101 @@
+.bg_ground_image{
+/* 
+    background-image: url('../images/robert-bye-FXkLxzkaJ0I-unsplash.jpg'); */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-color: rgba(rgba(153, 144, 144, 0.926));
+    opacity: 1;
+    background-color: black;
+
+
+}
+
+.Firs†_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -0%);
+   
+   
+ 
+
+}
+.search_button{
+
+    padding-left: 20px;
+    display: inline;
+    justify-content: center;
+    /* display: inline; */
+    /* margin-left: 35%;
+    margin-top: 100px; */
+    border-radius: 60px;
+    padding: 5px 20px;
+    text-align: center;}
+
+.text_div{
+    border-radius: 30px;
+    width: 200%;
+    padding: 5px;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+.article-image{
+    width: 200px;
+    height: 200px;
+
+}
+.two_tag{
+    width: 80%;
+    text-align: left;
+}
+.container{
+    position: relative;
+    height: 150px;
+}
+.news_data{
+    display: flex;
+
+}
+.news_content{
+
+
+    width: 60%;
+    /* background-color: blue; */
+    height: 100vh;
+
+}
+.news_image{
+    position: relative;
+    width: 40%;
+    background-color: bisque;
+    height:100vh;
+
+}
+.news_image > img{
+    width: 100%;
+    height: 100vh;
+}
+.news_title{
+    font-size: 180%;
+    text-align: center;
+    margin-top: 200px;
+
+
+}
+.news_descri{
+    font-size: 100%;
+    text-align: center;
+    height: 50px;
+}
